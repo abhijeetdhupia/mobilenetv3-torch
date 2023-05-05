@@ -1,0 +1,9 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore the checkpoints directory
+checkpoints/
+
+# Ignore the dataset directory (since it may be large)
+dataset/

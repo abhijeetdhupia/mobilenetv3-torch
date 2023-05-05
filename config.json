@@ -1,0 +1,17 @@
+{
+    "dataset_dir": "dataset",
+    "train_dir": "dataset/train",
+    "val_dir": "dataset/val",
+    "test_dir": "dataset/test",
+    "checkpoint_dir": "checkpoints",
+    "log_dir": "logs",
+    "model_type": "mobilenet_v3_large",
+    "pretrained": true,
+    "num_classes": 2,
+    "batch_size": 64,
+    "num_epochs": 1000,
+    "learning_rate": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "use_gpu": true
+}
